@@ -4,10 +4,10 @@
   "description": "Hyperledger supply chain Sample Application",
   "main": "supplychain.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "node app.js"
   },
  "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "8.11.3"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -25,7 +25,7 @@
     "express": "^4.14.0",
     "fabric-ca-client": "^1.0.0",
     "fabric-client": "^1.2.1",
-    "grpc": "^1.14.0-pre2",
+    "grpc": "^1.16.0-pre1",
     "har-validator": "^5.0.3",
     "helmet": "^3.9.0",
     "hfc": "^0.6.5",
