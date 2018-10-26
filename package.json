@@ -4,7 +4,7 @@
   "description": "Hyperledger supply chain Sample Application",
   "main": "supplychain.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
